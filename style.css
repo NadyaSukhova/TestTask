@@ -1,0 +1,59 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url(back.jpg);
+    background-size: 100%;
+}
+
+
+header{
+
+    margin: 0px; 
+    padding: 0px;
+    height:149px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 23;
+     font-family:  "Gill Sans", sans-serif;
+} 
+
+
+ul  li {
+  font-size: 18;
+  display:inline-block;
+  padding-left: 3.4%;
+    padding-right:3.4%;
+  line-height:65px;
+border-left:1px solid #ffffff;
+border-right:1px solid #ffffff;
+  text-align:center;
+    
+    
+}
+
+
+
+ ul ul {
+    display:none;
+}
+
+ ul li:hover  ul {
+  display:block;
+  position:relative;
+}
+
+ ul li:hover  ul  li {
+  display:block;
+  width:100%;
+  height:45px;
+  line-height:50px;
+  padding:0px;
+  text-align:center;
+     border: none;
+}
+
+ ul li {
+  float: left;
+}
